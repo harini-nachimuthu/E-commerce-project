@@ -1,0 +1,196 @@
+Started by timer
+Running as SYSTEM
+Building in workspace C:\Users\harin\.jenkins\workspace\E-Commerce project
+The recommended git tool is: NONE
+using credential 1dd15a64-74cd-4ec1-9366-29082564b317
+ > git.exe rev-parse --resolve-git-dir C:\Users\harin\.jenkins\workspace\E-Commerce project\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/harini-nachimuthu/E-commerce-project # timeout=10
+Fetching upstream changes from https://github.com/harini-nachimuthu/E-commerce-project
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.45.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/harini-nachimuthu/E-commerce-project +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 5aa17f6ab2960325895d57d9957010a2bab165f8 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 5aa17f6ab2960325895d57d9957010a2bab165f8 # timeout=10
+Commit message: "Create README.md"
+ > git.exe rev-list --no-walk 5aa17f6ab2960325895d57d9957010a2bab165f8 # timeout=10
+[E-Commerce project] $ cmd.exe /C "C:\Users\harin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\bin\mvn.cmd clean install test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< E-commercewebsite:E-commercewebsite >-----------------
+[INFO] Building E-commercewebsite 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ E-commercewebsite ---
+[INFO] Deleting C:\Users\harin\.jenkins\workspace\E-Commerce project\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ E-commercewebsite ---
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\E-Commerce project\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ E-commercewebsite ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ E-commercewebsite ---
+[INFO] skip non existing resourceDirectory C:\Users\harin\.jenkins\workspace\E-Commerce project\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ E-commercewebsite ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to C:\Users\harin\.jenkins\workspace\E-Commerce project\target\test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M5:test (default-test) @ E-commercewebsite ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:30:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:30:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Warning: E-Mail Address is already registered! is present..........
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_signupform_2024-10-06_16-31-03.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_signupform_2024-10-06_16-31-03.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:31:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:31:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_loginform_2024-10-06_16-31-10.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_loginform_2024-10-06_16-31-10.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:31:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:31:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Add to Cart is present........
+Success: You have added Palm Treo Pro to your shopping cart!
+×is present........
+Products marked with *** are not available in the desired quantity or not in stock!
+×is present........
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_desktopproduct_2024-10-06_16-31-20.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_desktopproduct_2024-10-06_16-31-20.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:31:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:31:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Add to Cart is present........
+Success: You have added Sony VAIO to your shopping cart!
+×is present........
+Products marked with *** are not available in the desired quantity or not in stock!
+×is present........
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_laptopproducts_2024-10-06_16-31-31.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_laptopproducts_2024-10-06_16-31-31.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:31:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:31:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+There are no products to list in this category. this is the information present
+There are no products to list in this category. this is the information present
+There are no products to list in this category. this is the information present
+There are no products to list in this category. this is the information present
+Add to Cart is present........
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_components_2024-10-06_16-32-34.png
+ Test failed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_components_2024-10-06_16-32-34.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:32:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:32:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_tablet_2024-10-06_16-32-40.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_tablet_2024-10-06_16-32-40.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:32:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:32:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+There are no products to list in this category. this is the information present
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_softwaretesting_2024-10-06_16-32-46.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_softwaretesting_2024-10-06_16-32-46.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:32:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:32:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Add to Cart is present........
+Success: You have added HTC Touch HD to your shopping cart!
+×is present........
+Products marked with *** are not available in the desired quantity or not in stock!
+×is present........
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_phonetesting_2024-10-06_16-32-56.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_phonetesting_2024-10-06_16-32-56.png
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.89 (resolved driver for Chrome 129)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\harin\.cache\selenium\chromedriver\win64\129.0.6668.89\chromedriver.exe
+Oct 06, 2024 4:32:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 06, 2024 4:32:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Success: You have added Canon EOS 5D to your product comparison!
+×is present........
+Success: You have added Nikon D300 to your product comparison!
+×is present........
+Success: You have modified your product comparison!
+×is present........
+Success: You have modified your product comparison!
+×is present........
+You have not chosen any products to compare. this is the information present
+ScreenshotC:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_cameracompare_2024-10-06_16-33-18.png
+Test passed :: Screenshot path location : C:\Users\harin\eclipse-workspace\E-commercewebsite\Screenshots\chrome_cameracompare_2024-10-06_16-33-18.png
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 189.465 s <<< FAILURE! - in TestSuite
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] tests.componentstest.components  Time elapsed: 59.96 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='alert alert-success alert-dismissible']' (tried for 45 second(s) with 500 milliseconds interval)
+	at tests.componentstest.components(componentstest.java:16)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success alert-dismissible']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09d3e2619b232a075689845da7533ec4, findElement {value=//div[@class='alert alert-success alert-dismissible'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\harin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64725/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09d3e2619b232a075689845da7533ec4
+	at tests.componentstest.components(componentstest.java:16)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failures: 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   componentstest.components:16->utility.datacheckingonlyvisible:94 » Timeout Exp...
+[INFO] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Tests run: 9, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:14 min
+[INFO] Finished at: 2024-10-06T16:33:20+05:30
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project E-commercewebsite: There are test failures.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to C:\Users\harin\.jenkins\workspace\E-Commerce project\target\surefire-reports for the individual test results.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4GfqAmgIPpnwraV1osRvzxXjgQqfRJtx6FoJA77T6qYLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE
