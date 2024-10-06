@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-06T15:31:57 IST" name="Suite" finished-at="2024-10-06T15:34:13 IST" duration-ms="135746">
+    <groups>
+    </groups>
+    <test started-at="2024-10-06T15:31:57 IST" name="test1" finished-at="2024-10-06T15:32:54 IST" duration-ms="57000">
+      <class name="tests.Logintest">
+        <test-method is-config="true" signature="loginbefore()[pri:0, instance:tests.Logintest@2a62b5bc]" started-at="2024-10-06T15:31:57 IST" name="loginbefore" finished-at="2024-10-06T15:31:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbefore -->
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@2a62b5bc]" started-at="2024-10-06T15:32:49 IST" name="beforemethodstart" finished-at="2024-10-06T15:32:52 IST" duration-ms="2873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="loginform(java.lang.String,java.lang.String)[pri:2, instance:tests.Logintest@2a62b5bc]" started-at="2024-10-06T15:32:52 IST" name="loginform" description="Login functionality is done here" data-provider="retrievedatafromexcel" finished-at="2024-10-06T15:32:54 IST" duration-ms="1442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vickywaran345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vicky@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginform -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.Logintest@2a62b5bc]" started-at="2024-10-06T15:32:54 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:32:54 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.Logintest -->
+      <class name="tests.Signuptest">
+        <test-method is-config="true" signature="beforesign()[pri:0, instance:tests.Signuptest@34f22f9d]" started-at="2024-10-06T15:31:57 IST" name="beforesign" finished-at="2024-10-06T15:31:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesign -->
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.Signuptest@34f22f9d]" started-at="2024-10-06T15:31:58 IST" name="beforemethodstart" finished-at="2024-10-06T15:32:01 IST" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="signupform(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.Signuptest@34f22f9d]" started-at="2024-10-06T15:32:01 IST" name="signupform" description="Signup functionality is done" data-provider="retrievedatafromexcel" finished-at="2024-10-06T15:32:49 IST" duration-ms="47420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vignesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Waran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vickywaran345@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.754321078E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vicky@12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Vicky@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupform -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.Signuptest@34f22f9d]" started-at="2024-10-06T15:32:49 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:32:49 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.Signuptest -->
+    </test> <!-- test1 -->
+    <test started-at="2024-10-06T15:32:54 IST" name="test2" finished-at="2024-10-06T15:33:12 IST" duration-ms="17741">
+      <class name="tests.laptoptests">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.laptoptests@6dee4f1b]" started-at="2024-10-06T15:33:03 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:05 IST" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="laptopproducts()[pri:4, instance:tests.laptoptests@6dee4f1b]" started-at="2024-10-06T15:33:05 IST" name="laptopproducts" description="Adding laptop to cart and checkout done" finished-at="2024-10-06T15:33:12 IST" duration-ms="6408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopproducts -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.laptoptests@6dee4f1b]" started-at="2024-10-06T15:33:12 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:12 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.laptoptests -->
+      <class name="tests.desktoptest">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.desktoptest@77d67cf3]" started-at="2024-10-06T15:32:54 IST" name="beforemethodstart" finished-at="2024-10-06T15:32:57 IST" duration-ms="2850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="desktopproduct()[pri:3, instance:tests.desktoptest@77d67cf3]" started-at="2024-10-06T15:32:57 IST" name="desktopproduct" description="Adding desktop to cart and checkout done" finished-at="2024-10-06T15:33:02 IST" duration-ms="5246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopproduct -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.desktoptest@77d67cf3]" started-at="2024-10-06T15:33:02 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:03 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.desktoptest -->
+    </test> <!-- test2 -->
+    <test started-at="2024-10-06T15:33:12 IST" name="test3" finished-at="2024-10-06T15:33:36 IST" duration-ms="24243">
+      <class name="tests.componentstest">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.componentstest@4b3ed2f0]" started-at="2024-10-06T15:33:12 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:15 IST" duration-ms="2757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="components()[pri:5, instance:tests.componentstest@4b3ed2f0]" started-at="2024-10-06T15:33:15 IST" name="components" description="Adding monitor to cart and checkout is done" finished-at="2024-10-06T15:33:32 IST" duration-ms="17095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- components -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.componentstest@4b3ed2f0]" started-at="2024-10-06T15:33:32 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:32 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.componentstest -->
+      <class name="tests.tabletest">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.tabletest@4fad9bb2]" started-at="2024-10-06T15:33:32 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:35 IST" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="tablet()[pri:6, instance:tests.tabletest@4fad9bb2]" started-at="2024-10-06T15:33:35 IST" name="tablet" description="tablet product checking" finished-at="2024-10-06T15:33:36 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tablet -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.tabletest@4fad9bb2]" started-at="2024-10-06T15:33:36 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:36 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.tabletest -->
+    </test> <!-- test3 -->
+    <test started-at="2024-10-06T15:33:36 IST" name="test4" finished-at="2024-10-06T15:34:13 IST" duration-ms="36433">
+      <class name="tests.softwaretest">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.softwaretest@691939c9]" started-at="2024-10-06T15:33:36 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:39 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="softwaretesting()[pri:7, instance:tests.softwaretest@691939c9]" started-at="2024-10-06T15:33:39 IST" name="softwaretesting" description="Components checking" finished-at="2024-10-06T15:33:40 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softwaretesting -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.softwaretest@691939c9]" started-at="2024-10-06T15:33:40 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:40 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.softwaretest -->
+      <class name="tests.phonetests">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.phonetests@4f1bfe23]" started-at="2024-10-06T15:33:40 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:43 IST" duration-ms="2891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="phonetesting()[pri:8, instance:tests.phonetests@4f1bfe23]" started-at="2024-10-06T15:33:43 IST" name="phonetesting" description="Added phone to cart and checkout done" finished-at="2024-10-06T15:33:48 IST" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonetesting -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.phonetests@4f1bfe23]" started-at="2024-10-06T15:33:49 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:33:49 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.phonetests -->
+      <class name="tests.cameratest">
+        <test-method is-config="true" signature="beforemethodstart(java.lang.String,java.lang.String)[pri:0, instance:tests.cameratest@e19bb76]" started-at="2024-10-06T15:33:49 IST" name="beforemethodstart" finished-at="2024-10-06T15:33:50 IST" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodstart -->
+        <test-method signature="cameracompare()[pri:9, instance:tests.cameratest@e19bb76]" started-at="2024-10-06T15:33:50 IST" name="cameracompare" description="Comparing two cameras specification and removing them" finished-at="2024-10-06T15:34:12 IST" duration-ms="22299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cameracompare -->
+        <test-method is-config="true" signature="aftermethodcomplete()[pri:0, instance:tests.cameratest@e19bb76]" started-at="2024-10-06T15:34:13 IST" name="aftermethodcomplete" finished-at="2024-10-06T15:34:13 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethodcomplete -->
+      </class> <!-- tests.cameratest -->
+    </test> <!-- test4 -->
+  </suite> <!-- Suite -->
+</testng-results>

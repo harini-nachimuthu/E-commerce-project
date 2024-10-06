@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+	<listeners>
+		<listener class-name="utils.Listenerclass"></listener>
+	</listeners>
+	  <test thread-count="5" name="test1">
+	    <classes>
+	    <class name="tests.Signuptest"/>
+	    <class name="tests.Logintest"/>
+	     </classes>
+	  </test> 
+	  <test name="test2">
+	  <classes>
+	  		<class name="tests.desktoptest"/>
+	        <class name="tests.laptoptests"/>
+	  </classes>
+	  </test>
+	  <test name="test3">
+	  <classes>
+	  		<class name="tests.componentstest"/>
+	        <class name="tests.tabletest"/>
+	  </classes>
+	  </test>
+	  <test name="test4">
+	  <classes>
+	  		<class name="tests.softwaretest"/>
+	        <class name="tests.phonetests"/>
+	        <class name="tests.cameratest"/>
+	  </classes>
+	  </test>
+</suite> 
